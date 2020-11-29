@@ -13,6 +13,8 @@ let style = FormattedStringStyle(attributes: [
 label.attributedText = NSAttributedString(formatting: text, style: style)
 ```
 
+Result using standard `UILabel`:
+
 ![example](https://user-images.githubusercontent.com/1567433/100555152-9d7a7280-3267-11eb-82ea-57ee43352468.png)
 
 # License
