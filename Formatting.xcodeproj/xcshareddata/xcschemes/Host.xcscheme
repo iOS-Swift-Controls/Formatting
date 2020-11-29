@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1200"
+   LastUpgradeVersion = "1220"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0CE32EDD257437D500071EF3"
-               BuildableName = "Formatting.framework"
-               BlueprintName = "Formatting"
+               BlueprintIdentifier = "0CE32EFF257457E800071EF3"
+               BuildableName = "Host.app"
+               BlueprintName = "Host"
                ReferencedContainer = "container:Formatting.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0CB3054B22FED02D0083B406"
-               BuildableName = "FormattingTests.xctest"
-               BlueprintName = "FormattingTests"
-               ReferencedContainer = "container:Formatting.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0C15CFC523082A8800CCA38D"
-               BuildableName = "FormattingPerformanceTests.xctest"
-               BlueprintName = "FormattingPerformanceTests"
-               ReferencedContainer = "container:Formatting.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -60,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0CE32EFF257457E800071EF3"
+            BuildableName = "Host.app"
+            BlueprintName = "Host"
+            ReferencedContainer = "container:Formatting.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -67,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0CE32EDD257437D500071EF3"
-            BuildableName = "Formatting.framework"
-            BlueprintName = "Formatting"
+            BlueprintIdentifier = "0CE32EFF257457E800071EF3"
+            BuildableName = "Host.app"
+            BlueprintName = "Host"
             ReferencedContainer = "container:Formatting.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
