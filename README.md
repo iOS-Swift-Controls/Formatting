@@ -15,7 +15,8 @@ label.attributedText = NSAttributedString(formatting: text, style: style)
 
 Result using standard `UILabel`:
 
-![example](https://user-images.githubusercontent.com/1567433/100555152-9d7a7280-3267-11eb-82ea-57ee43352468.png)
+![Screen Shot 2020-11-29 at 18 07 03](https://user-images.githubusercontent.com/1567433/100556269-29dc6380-326f-11eb-8afe-769d48706362.png)
+
 
 # License
 
