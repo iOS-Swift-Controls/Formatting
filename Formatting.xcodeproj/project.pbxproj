@@ -11,6 +11,8 @@
 		0CB7D1DD230DC61A00992CF4 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15CFB52305E3D600CCA38D /* PerformanceTests.swift */; };
 		0CE32EE2257437D500071EF3 /* Formatting.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE32EE0257437D500071EF3 /* Formatting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CE32EEC257437DC00071EF3 /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3055C22FED05D0083B406 /* Formatting.swift */; };
+		0CE32EF72574572300071EF3 /* Formatting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE32EDE257437D500071EF3 /* Formatting.framework */; };
+		0CE32EF82574572500071EF3 /* Formatting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE32EDE257437D500071EF3 /* Formatting.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE32EF82574572500071EF3 /* Formatting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE32EF72574572300071EF3 /* Formatting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +63,7 @@
 				0CB3054D22FED02D0083B406 /* Tests */,
 				0CE32EDF257437D500071EF3 /* Formatting */,
 				0CB3053F22FED01C0083B406 /* Products */,
+				0CE32EF62574572300071EF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +102,13 @@
 				0CE32EE1257437D500071EF3 /* Info.plist */,
 			);
 			path = Formatting;
+			sourceTree = "<group>";
+		};
+		0CE32EF62574572300071EF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
